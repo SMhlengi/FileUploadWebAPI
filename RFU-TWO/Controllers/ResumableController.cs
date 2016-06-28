@@ -6,6 +6,10 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using System.Configuration;
+using System.Collections.Generic;
+using System.Linq;
+using DotNetHelpers.UltimateImageResizer;
 
 namespace Resumable.Controllers
 {
@@ -14,6 +18,7 @@ namespace Resumable.Controllers
 	public class FileUploadController : ApiController
 	{
 		private string root = System.Web.Hosting.HostingEnvironment.MapPath("~/Uploads"); 
+        //private string root = System.Web.Hosting.HostingEnvironment.MapPath("C:\\inetpub\\LatestSightings2\\Videos\\"); 
 		
 		[Route("Upload"), HttpOptions]
 		public object UploadFileOptions()
@@ -178,9 +183,53 @@ namespace Resumable.Controllers
 
 				// Delete chunk files
 				DeleteChunks(configuration);
+                if (IsImageFile(configuration.FileName))
+                    ResizeFile(configuration.FileName);
 			}
 		}
 
+
+        private bool IsImageFile(string filename)
+        {
+            string[] fileType = filename.Split('.');
+            string imageFileType = ConfigurationManager.AppSettings["ImageFileFormats"].ToString().ToLower();
+            string[] filetypes = imageFileType.Split(',');
+            // ints.OfType<int>().ToList();
+            List<string> listfileTypes = filetypes.Cast<String>().ToList();
+            if (listfileTypes.Contains(fileType[1]))
+                return true;
+            return false;
+        }
+
+        private void ResizeFile(string filename)
+        {
+            File.Move(ConfigurationManager.AppSettings["UploadFolderLocation"].ToString() + filename, ConfigurationManager.AppSettings["originalImage"] + filename);
+            try
+            {
+                using (ImageResizer resizer = new ImageResizer(ConfigurationManager.AppSettings["originalImage"].ToString() + filename))
+                {
+                    // Make sure any images which are sideways are turned the right way around
+                    resizer.RotateIfNeeded();
+
+                    // Save it to disk as a large JPG, in its own special directory
+                    resizer.Mode = ResizeMode.KeepOriginalRatioByCropping;
+                    resizer.Resize(650, 650);
+                    resizer.SaveToDisk(OutputImageFormat.Jpeg, ConfigurationManager.AppSettings["650by650"] + filename);
+
+
+                    // Also save a thumbnail version
+                    resizer.Mode = ResizeMode.KeepOriginalRatioByCropping;
+                    resizer.Resize(80, 80);
+                    resizer.SaveToDisk(OutputImageFormat.Jpeg, ConfigurationManager.AppSettings["80by80"] + filename);
+
+                }
+            }
+            catch (Exception ex)
+            {
+                //errorLabel.Visible = true;
+                //errorLabel.Text = "Could not upload image: " + ex.Message;
+            }
+        }
 		[NonAction]
 		private void DeleteChunks(ResumableConfiguration configuration)
 		{

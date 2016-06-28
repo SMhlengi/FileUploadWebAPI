@@ -33,3 +33,38 @@ C:\Users\musa.mhlengi\documents\visual studio 2013\Projects\RFU-TWO\RFU-TWO\bin\
 C:\Users\musa.mhlengi\documents\visual studio 2013\Projects\RFU-TWO\RFU-TWO\obj\Debug\RFU-TWO.csprojResolveAssemblyReference.cache
 C:\Users\musa.mhlengi\documents\visual studio 2013\Projects\RFU-TWO\RFU-TWO\obj\Debug\RFU-TWO.dll
 C:\Users\musa.mhlengi\documents\visual studio 2013\Projects\RFU-TWO\RFU-TWO\obj\Debug\RFU-TWO.pdb
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\RFU-TWO.dll.config
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\RFU-TWO.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\RFU-TWO.pdb
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\Antlr3.Runtime.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\Newtonsoft.Json.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Net.Http.Formatting.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Cors.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Helpers.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Http.Cors.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Http.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Http.WebHost.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Mvc.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Optimization.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Razor.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.WebPages.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.WebPages.Razor.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\WebGrease.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Net.Http.Formatting.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Http.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Http.Cors.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\Newtonsoft.Json.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Helpers.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Http.WebHost.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Mvc.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Optimization.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.Razor.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.WebPages.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\System.Web.WebPages.Razor.xml
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\Antlr3.Runtime.pdb
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\obj\Debug\RFU-TWO.dll
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\obj\Debug\RFU-TWO.pdb
+C:\Users\musa.mhlengi\Documents\GitHub\FileUploadWebAPI\RFU-TWO\bin\DotNetHelpers.UltimateImageResizer.dll
