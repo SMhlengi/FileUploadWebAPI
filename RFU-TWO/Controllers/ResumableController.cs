@@ -196,7 +196,7 @@ namespace Resumable.Controllers
             string[] filetypes = imageFileType.Split(',');
             // ints.OfType<int>().ToList();
             List<string> listfileTypes = filetypes.Cast<String>().ToList();
-            if (listfileTypes.Contains(fileType[1]))
+            if (listfileTypes.Contains(fileType[1].ToLower()))
                 return true;
             return false;
         }
